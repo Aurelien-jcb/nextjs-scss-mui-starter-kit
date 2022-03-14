@@ -1,3 +1,5 @@
+@import './colors.module.scss';
+
 html,
 body {
   padding: 0;
@@ -7,7 +9,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: $primaryColor;
   text-decoration: none;
 }
 
